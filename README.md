@@ -1,5 +1,5 @@
 # Giacomo_Caiazzo_Homework_1
-Repository dell'homework 1 del corso di Robotics Lab di Giacomo Caiazzo
+Repository of the Homework_1 of the Robotics Lab course, by Giacomo Caiazzo, Matteo De Simone, Marco Bartone, Nicola Monetti
 
 
 ## Robotics Lab - Homework 1
