@@ -41,18 +41,20 @@ Run the Gazebo simulation of the manipulator with:
 
 --------------------------------
 
+If you want to launch the gazebo simulation of the controlled arm, run the arm_gazebo.launch.py, which contains both the arm_world.launch.py and the arm_control.launch.py:
+
+    $ ros2 launch arm_gazebo arm_gazebo.launch.py
+
+--------------------------------
+
+
+
 If you want to run the simulation without the joints actuated, open the arm_world.launch.py and modify the following code lines:
 
 -       with open(urdf_arm_gazebo, 'r') as infp: ###line 26
 
 -      parameters=[robot_description_links,
                   {"use_sim_time": True}, ###line 42-43
-
---------------------------------
-
-If you want to launch the gazebo simulation of the controlled arm, run the arm_gazebo.launch.py, which contains both the arm_world.launch.py and the arm_control.launch.py:
-
-    $ ros2 launch arm_gazebo arm_gazebo.launch.py
 
 --------------------------------
 
