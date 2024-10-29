@@ -43,9 +43,9 @@ Run the Gazebo simulation of the manipulator with:
 
 If you want to run the simulation without the joints actuated, open the arm_world.launch.py and modify the following code lines:
 
-      with open(urdf_arm_gazebo, 'r') as infp: ###line 26
+-       with open(urdf_arm_gazebo, 'r') as infp: ###line 26
 
-      parameters=[robot_description_links,
+-      parameters=[robot_description_links,
                   {"use_sim_time": True}, ###line 42-43
 
 --------------------------------
