@@ -1,5 +1,5 @@
 # Giacomo_Caiazzo_Homework_1
-Repository of the Homework_1 of the Robotics Lab course, by Giacomo Caiazzo, Matteo De Simone, Marco Bartone, Nicola Monetti
+Repository of the Homework_1 of the Robotics Lab course, by Giacomo Caiazzo P38000236, Matteo De Simone P38000232, Marco Bartone P38000237, Nicola Monetti P38000238
 
 
 ## Robotics Lab - Homework 1
@@ -73,7 +73,7 @@ After this, open the Image View from "Plugins" menu -> "Image View", and select 
 
 To establish the communication between the publishers and the subscriber, launch arm_gazebo.launch.py as previously described. After this, open a new terminal on the same directory, connect the Docker container and run the controller node with:
 
-    $ ros2 run arm_control arm_controller
+    $ ros2 run arm_control controller
 
 then insert a vector of 4 floats separated by spaces in order to send the position command to the joints.
 
