@@ -32,13 +32,7 @@ Atfer this, we have to use the source command:
 Run the RVIZ2 simulation of the manipulator robot with:
 
     $ ros2 launch arm_description display.launch.py
-
-or move to the src/arm_description/launch directory and run the simulation:
-
-
-    $ cd src/arm_description/launch
-    $ ros2 launch display.launch.py
-
+    
 --------------------------------
 
 Run the Gazebo simulation of the manipulator with:
