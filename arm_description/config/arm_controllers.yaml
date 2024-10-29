@@ -1,0 +1,28 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 225  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    position_controller:
+      type: position_controllers/JointGroupPositionController
+
+
+    state_publish_rate: 200.0   
+    action_monitor_rate: 20.0 
+
+    allow_partial_joints_goal: true
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+
+  
+position_controller:
+  ros__parameters:
+    joints:
+      - j0
+      - j1
+      - j2
+      - j3
+
+
