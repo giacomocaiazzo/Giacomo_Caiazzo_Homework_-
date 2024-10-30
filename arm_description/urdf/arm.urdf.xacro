@@ -435,7 +435,10 @@
     </plugin>
   </gazebo>
 
-  
+  <gazebo>
+    <self_collide>true</self_collide>
+  </gazebo>
+
   <xacro:include filename="$(find arm_description)/urdf/arm_hardware_interface.xacro"/>
   <xacro:include filename="$(find arm_description)/urdf/arm_camera.xacro"/>
   
