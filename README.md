@@ -71,7 +71,7 @@ After this, open the Image View from "Plugins" menu -> "Image View", and select 
 
 --------------------------------
 
-To establish the communication between the publishers and the subscriber, launch arm_gazebo.launch.py as previously described. After this, open a new terminal on the same directory, connect the Docker container and run the controller node with:
+To establish the communication between the publisher and the subscriber, launch arm_gazebo.launch.py as previously described. After this, open a new terminal on the same directory, connect the Docker container and run the controller node with:
 
     $ ros2 run arm_control controller
 
